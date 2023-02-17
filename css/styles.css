@@ -30,6 +30,11 @@ html {
     
     .WebStudio-info {
         color: #757575;
+        position: absolute;
+        width: 145px;
+        height: 31px;   
+        left: 215px;
+        top: 24px;
     }
     
     .header-navigation a :hover {
@@ -40,6 +45,11 @@ html {
     .header-navigation {
     background-color: white;
     text-decoration: none;
+    position: absolute;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
     }
     
     .WebStudio-info {
@@ -57,13 +67,26 @@ html {
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #212121;
+    position: absolute;
+    width: 42px;
+    height: 16px;
+    left: 453px;
+    top: 32px;
     }
     
-    .portofolio-contacts {  
+    .portofolio .contacts {  
     font-weight: 500;
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #212121;
+    }
+
+    .portofolio {
+        position: absolute;
+        width: 58px;
+        height: 16px;
+        left: 545px;
+        top: 32px;
     }
     
     .header-wright {
