@@ -10,6 +10,8 @@ html {
     font-weight: 500;
     line-height: 16px;
     letter-spacing: 0.02em;
+    width: 1200px;
+    display: flex;
 }
 
 .header-left {
@@ -69,6 +71,7 @@ header-navigation a :hover {
 
 .head {
     background-color: #2F303A;
+    width: 1200px;
 }
 
 .head-title {
@@ -188,6 +191,7 @@ li {
 
 .footer {
     background-color:  #2F303A;
+    width: 1200px;
 }
 
 .adress-footer {
