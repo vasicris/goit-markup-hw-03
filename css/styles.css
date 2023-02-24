@@ -12,10 +12,15 @@ html {
     letter-spacing: 0.02em;
     width: 1200px;
     display: flex;
+    justify-content: space-around;
+    align-items: baseline;
 }
 
 .header-left {
     list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 0.5;
 }
 
 .header-left :hover {
@@ -61,6 +66,8 @@ header-navigation a :hover {
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #757575;
+    display: flex;
+    justify-content: space-between;
 }
 
 .header-wright :hover {
