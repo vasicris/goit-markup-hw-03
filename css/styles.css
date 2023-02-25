@@ -13,7 +13,8 @@ html {
     width: 1200px;
     display: flex;
     justify-content: space-around;
-    align-items: baseline;
+    align-items: center
+    /*align-content: center;*/
 }
 
 .header-left {
@@ -21,6 +22,8 @@ html {
     display: flex;
     justify-content: space-between;
     flex-grow: 0.5;
+    /*align-content: center;*/
+    align-items: center;
 }
 
 .header-left :hover {
@@ -68,6 +71,7 @@ header-navigation a :hover {
     color: #757575;
     display: flex;
     justify-content: space-between;
+    /*align-content: center;*/
 }
 
 .header-wright :hover {
@@ -125,11 +129,23 @@ li {
     color: #212121;
 }
 
+.section-portofolio {
+    width: 1170px;
+    height: 1360px;
+}
+
 .button-projects {
     list-style: none;
     border-radius: 4px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    width: 516px;
+    height: 38px;
 }
+
+
 
 .button {
     height: 38px;
@@ -156,6 +172,19 @@ li {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     }
+
+
+.portofolio {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card-portofolio {
+    flex-basis: 370px;
+    height: 440px;
+}
 
 
 .image-portofolio {
