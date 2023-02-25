@@ -255,3 +255,9 @@ li {
     text-decoration: none;
     font-style: normal;
     }
+
+    * {
+        margin-block-start: 0px;
+        margin-block-end: 0px;
+    }
+    }
