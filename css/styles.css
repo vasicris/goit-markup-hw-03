@@ -5,24 +5,41 @@ html {
     font-size: 14px;
 }
 
+.container {
+    width: 1200px;
+}
+
 .header-navigation { 
     background-color: white;
     font-weight: 500;
     line-height: 16px;
     letter-spacing: 0.02em;
-    width: 1200px;
     display: flex;
     justify-content: space-around;
-    align-items: center
-    /*align-content: center;*/
+    /*align-items: center*/
+    align-content: space-evenly
+}
+
+.nav-link {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .header-left {
-    list-style: none;
+    /*list-style: none;
     display: flex;
     justify-content: space-between;
     flex-grow: 0.5;
     /*align-content: center;*/
+    align-items: center;*/
+}
+
+.header-left,
+.header-wright {
+    display: flex;
+    gap: 30px;
     align-items: center;
 }
 
@@ -69,9 +86,9 @@ header-navigation a :hover {
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #757575;
-    display: flex;
+    /*display: flex;
     justify-content: space-between;
-    /*align-content: center;*/
+    align-content: center;*/
 }
 
 .header-wright :hover {
@@ -119,6 +136,9 @@ li {
 
 .section-our-team {
     background-color: #F5F4FA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .title-our-team {
@@ -127,6 +147,11 @@ li {
     line-height: 42px;
     letter-spacing: 0.03em;
     color: #212121;
+}
+
+.our-team {
+    display: flex;
+    gap: 30px;
 }
 
 .section-portofolio {
@@ -201,6 +226,24 @@ li {
     color: #212121;
 }
 
+
+.what-we-do {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 94px;
+}
+
+.title-what-we-do {
+    padding-bottom: 50px;
+    margin-top: 44px;
+}
+
+.what-we-do-img {
+    display: flex;
+    gap: 30px;
+}
+
 .title-team {
     font-weight: 500;
     font-size: 16px;
@@ -259,5 +302,4 @@ li {
     * {
         margin-block-start: 0px;
         margin-block-end: 0px;
-    }
     }
