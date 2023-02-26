@@ -6,7 +6,11 @@ html {
 }
 
 .container {
-    width: 1200px;
+    /*width: 1200px;*/
+}
+
+.section {
+    padding: 94px 0px;
 }
 
 .header-navigation { 
@@ -32,7 +36,7 @@ html {
     display: flex;
     justify-content: space-between;
     flex-grow: 0.5;
-    /*align-content: center;*/
+    /*align-content: center;
     align-items: center;*/
 }
 
@@ -100,6 +104,9 @@ header-navigation a :hover {
 .head {
     background-color: #2F303A;
     width: 1200px;
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
 }
 
 .head-title {
@@ -110,6 +117,8 @@ header-navigation a :hover {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
+    width: 696px;
+    padding-bottom: 30px;
 }
 
 .head-button {
@@ -129,6 +138,17 @@ header-navigation a :hover {
     border: none;
 }
 
+.our-description {
+    display: flex;
+    gap: 30px;
+}
+
+.our-every-description {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 li {
     list-style: none;
     text-decoration: none;
@@ -138,7 +158,7 @@ li {
     background-color: #F5F4FA;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /*align-items: center;*/
 }
 
 .title-our-team {
@@ -169,8 +189,6 @@ li {
     width: 516px;
     height: 38px;
 }
-
-
 
 .button {
     height: 38px;
@@ -230,13 +248,19 @@ li {
 .what-we-do {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding-bottom: 94px;
+    /*align-items: center;*/
+    /*padding-bottom: 94px;*/
 }
 
 .title-what-we-do {
     padding-bottom: 50px;
     margin-top: 44px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
 }
 
 .what-we-do-img {
@@ -244,12 +268,23 @@ li {
     gap: 30px;
 }
 
-.title-team {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
+.title-our-team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    padding-bottom: 50px;
+}
+
+.card-team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .description-team {
@@ -258,6 +293,15 @@ li {
     line-height: 19px;
     letter-spacing: 0.03em;
     color: #757575;
+    padding-bottom: 30px;
+}
+
+.img-team {
+    padding-bottom: 30px;
+}
+
+.title-team {
+    padding-bottom: 10px;
 }
 
 .description {
@@ -269,16 +313,31 @@ li {
 }
 
 .footer {
-    background-color:  #2F303A;
+    background-color: #2F303A;
     width: 1200px;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0px;
 }
 
-.adress-footer {
+.bottom-webstudio{
+    padding-bottom: 28px;
+    position: relative;
+    left: 215px;
+}
+
+.adress-footer-list {
     list-style: none;
+    display: flex;
+    flex-direction: column;
 }
 
-.adress-footer :hover {
+.adress-footer-list :hover {
     color: #2196F3
+}
+
+.footer-adress {
+    padding-bottom: 12px;
 }
 
 .adress-link-footer {
@@ -288,6 +347,7 @@ li {
     color: #FFFFFF;
     text-decoration: none;
     font-style: normal;
+    
 }
 
 .contact-link-footer {
