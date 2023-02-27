@@ -9,21 +9,23 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <!--HeaderSection-->
-    <header class="header-navigation">    
-        <nav>
+    <!--HeaderClass-->
+    <div class="container">
+        <header class="header-navigation">    
             <a class="WebStudio-info" href="Web">Web<span id="studio1">Studio</span></a>
-            <ul class="header-left">
-                <li><a class="page-link" href="./index.html">Studio</a></li>
-                <li><a class="page-link" href="./portofolio.html">Portfolio</a></li>
-                <li><a class="page-link" href="Contacts">Contacts</a></li>
-            </ul>
-        </nav>
-            <ul class="header-wright">
-                <li><a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="contact-link" href="tel:+1 212-772-4150">+1 212-772-4150</a></li>
-            </ul>
-    </header>
+            <nav class="nav-link">
+                <ul class="header-left">
+                    <li><a class="page-link" href="./index.html">Studio</a></li>
+                    <li><a class="page-link" href="./portofolio.html">Portfolio</a></li>
+                    <li><a class="page-link" href="Contacts">Contacts</a></li>
+                </ul>
+                <ul class="header-wright">
+                    <li><a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li><a class="contact-link" href="tel:+1 212-772-4150">+1 212-772-4150</a></li>
+                </ul>
+            </nav>   
+        </header>
+    </div>
     <main>
         <!--OurProjectsSection-->
         <section class="section-portofolio">
@@ -84,15 +86,17 @@
         </section>
     </main>
     <!--FooterSection-->
-    <footer class="footer">
-        <a class="WebStudio-info" href="Web">Web<span id="studio2">Studio</span></a>
-        <address>
-            <ul class="adress-footer">
-                <li><a class="adress-link-footer" href="695 Park Ave, NY 10065, USA">695 Park Ave, NY 10065, USA</a></li>
-                <li><a class="contact-link-footer" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="contact-link-footer" href="tel:+1 212-772-4150">+1 212-772-4150</a></li>
-            </ul>
-        </address>        
-    </footer>
+    <div class="container section">
+        <footer class="footer">
+            <a class="WebStudio-info bottom-webstudio" href="Web">Web<span id="studio2">Studio</span></a>
+            <address>
+                <ul class="adress-footer-list">
+                    <li class="footer-adress"><a class="adress-link-footer" href="695 Park Ave, NY 10065, USA">695 Park Ave, NY 10065, USA</a></li>
+                    <li class="footer-adress"><a class="contact-link-footer" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li class="footer-adress"><a class="contact-link-footer" href="tel:+1 212-772-4150">+1 212-772-4150</a></li>
+                </ul>
+            </address>        
+        </footer>
+    </div>
 </body>
 </html>
