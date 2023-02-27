@@ -20,9 +20,10 @@ html {
     letter-spacing: 0.02em;
     display: flex;
     justify-content: space-between;
-    align-content: space-evenly;
+    /* align-content: space-evenly; */
     padding: 0 215px;
     width: 100%;
+    align-items: center;
 }
 
 .nav-link {
@@ -38,6 +39,7 @@ html {
     gap: 30px;
     align-items: center;
     padding-inline-start: 0px;
+    padding: 32px 0px;
 }
 
 .header-left :hover {
@@ -158,6 +160,8 @@ li {
     flex-direction: column;
     /*width: 1170px;*/
     /*height: 1360px;*/
+    padding-top: 177px;
+    padding-bottom: 12px;
 }
 
 .button-projects {
@@ -170,6 +174,7 @@ li {
     width: 516px;
     height: 38px;
     padding-left: 444px;
+    padding-bottom: 50px;
 }
 
 .button {
@@ -226,7 +231,6 @@ li {
     color: #212121;
 }
 
-
 .what-we-do {
     display: flex;
     flex-direction: column;
@@ -235,12 +239,11 @@ li {
 }
 
 .title-what-we-do {
-    padding-bottom: 50px;
     margin-top: 44px;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
-    text-align: center;
+    /* text-align: center; */
     letter-spacing: 0.03em;
     color: #212121;
     padding-bottom: 50px;
