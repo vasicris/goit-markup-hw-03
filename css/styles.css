@@ -101,10 +101,10 @@ header-navigation a :hover {
 
 .head {
     background-color: #2F303A;
-    width: 1200px;
+    /* width: 1200px; */
     display: flex;
     flex-direction: column;
-    /*align-items: center;*/
+    align-items: center;
 }
 
 .head-title {
@@ -139,6 +139,7 @@ header-navigation a :hover {
 .our-description {
     display: flex;
     gap: 30px;
+    padding-left: 168px;
 }
 
 .our-every-description {
@@ -165,11 +166,14 @@ li {
     line-height: 42px;
     letter-spacing: 0.03em;
     color: #212121;
+    padding-bottom: 50px;
+    padding-left: 701px;
 }
 
 .our-team {
     display: flex;
     gap: 30px;
+    padding-left: 215px;
 }
 
 .section-portofolio {
@@ -248,8 +252,8 @@ li {
 .what-we-do {
     display: flex;
     flex-direction: column;
-    /*align-items: center;*/
-    /*padding-bottom: 94px;*/
+    /* align-items: center; */
+    padding-bottom: 94px;
 }
 
 .title-what-we-do {
@@ -261,11 +265,14 @@ li {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    padding-bottom: 50px;
+    padding-left: 701px;
 }
 
 .what-we-do-img {
     display: flex;
     gap: 30px;
+    padding-left: 215px;
 }
 
 .title-our-team {
@@ -276,6 +283,7 @@ li {
     letter-spacing: 0.03em;
     color: #212121;
     padding-bottom: 50px;
+    padding-left: 701px;
 }
 
 .card-team {
