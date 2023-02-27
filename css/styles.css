@@ -173,8 +173,10 @@ li {
 }
 
 .section-portofolio {
-    width: 1170px;
-    height: 1360px;
+    display: flex;
+    flex-direction: column;
+    /*width: 1170px;*/
+    /*height: 1360px;*/
 }
 
 .button-projects {
