@@ -153,29 +153,6 @@ li {
     text-decoration: none;
 }
 
-.section-our-team {
-    background-color: #F5F4FA;
-    display: flex;
-    flex-direction: column;
-    /*align-items: center;*/
-}
-
-.title-our-team {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    letter-spacing: 0.03em;
-    color: #212121;
-    padding-bottom: 50px;
-    padding-left: 701px;
-}
-
-.our-team {
-    display: flex;
-    gap: 30px;
-    padding-left: 215px;
-}
-
 .section-portofolio {
     display: flex;
     flex-direction: column;
@@ -276,15 +253,27 @@ li {
     padding-left: 215px;
 }
 
+.section-our-team {
+    background-color: #F5F4FA;
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+}
+
 .title-our-team {
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
-    text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
     padding-bottom: 50px;
     padding-left: 701px;
+}
+
+.our-team {
+    display: flex;
+    gap: 30px;
+    padding-left: 215px;
 }
 
 .card-team {
@@ -296,16 +285,16 @@ li {
     border-radius: 0px 0px 4px 4px;
 }
 
+.img-team {
+    padding-bottom: 30px;
+}
+
 .description-team {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0.03em;
     color: #757575;
-    padding-bottom: 30px;
-}
-
-.img-team {
     padding-bottom: 30px;
 }
 
