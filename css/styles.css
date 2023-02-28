@@ -7,10 +7,12 @@ html {
 
 .container {
     width: 1200px;
+    margin: 0px
 }
 
 .section {
     padding: 94px 0px;
+    margin: 0px;
 }
 
 .header-navigation { 
