@@ -250,13 +250,13 @@ li {
     letter-spacing: 0.03em;
     color: #212121;
     padding-bottom: 50px;
-    padding-left: 701px;
+    /* padding-left: 701px; */
 }
 
 .what-we-do-img {
     display: flex;
     gap: 30px;
-    padding-left: 215px;
+    /* padding-left: 215px; */
 }
 
 .section-our-team {
@@ -273,13 +273,13 @@ li {
     letter-spacing: 0.03em;
     color: #212121;
     padding-bottom: 50px;
-    padding-left: 701px;
+    /* padding-left: 701px; */
 }
 
 .our-team {
     display: flex;
     gap: 30px;
-    padding-left: 215px;
+    /* padding-left: 215px; */
 }
 
 .card-team {
