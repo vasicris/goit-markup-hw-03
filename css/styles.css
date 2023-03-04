@@ -36,7 +36,14 @@ html {
     justify-content: space-between;
 }
 
-.header-left,
+.header-left {
+    display: flex;
+    /* gap: 30px; */
+    align-items: center;
+    padding-inline-start: 0px;
+    padding: 32px 0px;
+}
+
 .header-wright {
     display: flex;
     /* gap: 30px; */
