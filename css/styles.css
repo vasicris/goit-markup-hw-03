@@ -84,7 +84,7 @@ header-navigation a :hover {
     letter-spacing: 0.03em;
     color: #2196F3;
     text-decoration: none;
-    padding: 0 93px 0 215px;
+    padding: 0 93px 0 0;
 }
 
 #studio1 {
@@ -113,10 +113,10 @@ header-navigation a :hover {
 
 .head {
     background-color: #2F303A;
-    /* width: 1200px; */
+    /* width: 1200px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; */
 }
 
 .head-title {
@@ -141,8 +141,8 @@ header-navigation a :hover {
     font-size: 16px;
     line-height: 30px;
     display: flex;
-    align-items: center;
-    text-align: center;
+    /* align-items: center;
+    text-align: center; */
     letter-spacing: 0.06em;
     color: #FFFFFF;
     border: none;
@@ -152,7 +152,6 @@ header-navigation a :hover {
 .our-description {
     display: flex;
     gap: 30px;
-    padding-left: 168px;
 }
 
 .our-every-description {
@@ -253,17 +252,17 @@ li {
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
-    /* text-align: center; */
     letter-spacing: 0.03em;
     color: #212121;
     padding-bottom: 50px;
-    /* padding-left: 701px; */
+    display: flex;
+    justify-content: center;
 }
 
 .what-we-do-img {
     display: flex;
     gap: 30px;
-    /* padding-left: 215px; */
+    justify-content: center;
 }
 
 .section-our-team {
@@ -280,13 +279,15 @@ li {
     letter-spacing: 0.03em;
     color: #212121;
     padding-bottom: 50px;
-    /* padding-left: 701px; */
+    display: flex;
+    justify-content: center;
 }
 
 .our-team {
     display: flex;
     gap: 30px;
-    /* padding-left: 215px; */
+    display: flex;
+    justify-content: center;
 }
 
 .card-team {
@@ -325,10 +326,9 @@ li {
 
 .footer {
     background-color: #2F303A;
-    width: 1200px;
     display: flex;
     flex-direction: column;
-    padding: 60px 0px 60px 215px;
+    padding: 60px 0px;
 }
 
 .bottom-webstudio{
@@ -386,7 +386,7 @@ li {
     }
 
     * {
-        margin-block-start: 0px;
-        margin-block-end: 0px;
+        margin-block-start: auto;
+        margin-block-end: auto;
         padding-inline-start: 0px;
     }
