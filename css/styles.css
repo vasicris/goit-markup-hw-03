@@ -129,6 +129,8 @@ header-navigation a :hover {
     color: #FFFFFF;
     width: 696px;
     padding-bottom: 30px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
 }
 
 .head-button {
@@ -141,12 +143,12 @@ header-navigation a :hover {
     font-size: 16px;
     line-height: 30px;
     display: flex;
-    /* align-items: center;
-    text-align: center; */
     letter-spacing: 0.06em;
     color: #FFFFFF;
     border: none;
     padding: 0px 20px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
 }
 
 .our-description {
