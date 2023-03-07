@@ -27,6 +27,7 @@ html {
     padding: 0 215px; */
     width: 100%;
     align-items: center;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .nav-link {
@@ -227,6 +228,17 @@ li {
     height: 440px;
 }
 
+.portofolio > li {
+    border: 1px solid #EEEEEE;
+}
+
+.card-portofolio > h3 {
+   padding: 20px 0px 4px 0px;
+}
+
+.card-portofolio > p {
+    padding-bottom: 20px;
+}
 
 .image-portofolio {
     width: 370px; 
