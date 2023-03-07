@@ -23,8 +23,6 @@ html {
     letter-spacing: 0.02em;
     display: flex;
     justify-content: space-between;
-    /* align-content: space-evenly; 
-    padding: 0 215px; */
     width: 100%;
     align-items: center;
     border-bottom: 1px solid #ECECEC;
@@ -39,7 +37,6 @@ html {
 
 .header-left {
     display: flex;
-    /* gap: 30px; */
     align-items: center;
     padding-inline-start: 0px;
     padding: 32px 0px;
@@ -47,7 +44,6 @@ html {
 
 .header-wright {
     display: flex;
-    /* gap: 30px; */
     align-items: center;
     padding-inline-start: 0px;
     padding: 32px 0px;
@@ -93,13 +89,7 @@ header-navigation a :hover {
   }
  
 .header-wright {
-    /* font-weight: 500;
-    line-height: 16px;
-    letter-spacing: 0.02em; */
     color: #757575;
-    /*display: flex;
-    justify-content: space-between;
-    align-content: center;*/
 }
 
 .header-wright :hover {
@@ -114,10 +104,6 @@ header-navigation a :hover {
 
 .head {
     background-color: #2F303A;
-    /* width: 1200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center; */
 }
 
 .head-title {
@@ -171,8 +157,6 @@ li {
 .section-portofolio {
     display: flex;
     flex-direction: column;
-    /*width: 1170px;*/
-    /*height: 1360px;*/
     padding-top: 177px;
     padding-bottom: 12px;
 }
@@ -184,9 +168,7 @@ li {
     display: flex;
     justify-content: center;
     gap: 8px;
-    /* width: 516px; */
     height: 38px;
-    /* padding-left: 444px; */
     padding-bottom: 50px;
 }
 
@@ -378,7 +360,6 @@ li {
     letter-spacing: 0.03em;
     color: #2196F3;
     text-decoration: none;
-    /* padding: 0 93px 0 215px; */
 }
 
 .adress-link-footer {
